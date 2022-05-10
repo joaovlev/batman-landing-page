@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+nav a:hover {
+    color: rgb(229, 247, 30);
+    transition: 0.3s all;
+    opacity: 1;
+}
+
+nav a:last-child {
+    border: 2px solid rgb(229, 247, 30);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav a:last-child:hover {
+    background-color: rgb(229, 247, 30);
+    color: black;
+}
+
+#title h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+main h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: rgb(229, 247, 30);
+}
+
+aside p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+article img {
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+form input[type="submit"] {
+   height: 50px;
+   width: 50%; 
+   background-color: rgb(229, 247, 30);
+   color: black;
+   font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+ }
